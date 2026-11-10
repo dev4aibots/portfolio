@@ -1,8 +1,6 @@
 # Devraj Gadhvi — Public Portfolio
 
-Animated career story: [CAREER_STORY.html](docs/CAREER_STORY.html)
-
-- Portfolio (live demos): https://dev4aibots.com
-- GitHub profile: https://github.com/dev4aibots
-- LinkedIn: https://linkedin.com/in/devraj0770
+- **Showcase (all projects):** https://dev4aibots.github.io/portfolio/showcase/
+- **Career story:** https://dev4aibots.github.io/portfolio/docs/CAREER_STORY.html
+- Portfolio: https://dev4aibots.com · GitHub: https://github.com/dev4aibots
 - Benchmarks: https://github.com/dev4aibots/llm-benchmarks
