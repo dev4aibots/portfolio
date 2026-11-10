@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Devraj Gadhvi — Project Showcase</title>
+<meta name="description" content="AI Engineer portfolio: every project with source, live demo, story, and proof." />
+<style>
+  :root{
+    --bg:#0b0e14; --panel:#111623; --line:#222b3d; --ink:#eaedf5; --dim:#8e97ab;
+    --acid:#4fd8e8; --violet:#a78bfa; --green:#6fce7e; --amber:#f0a35e;
+    --serif:Georgia,"Times New Roman",serif; --mono:"SFMono-Regular",Consolas,monospace;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.6}
+  .wrap{max-width:980px;margin:0 auto;padding:56px 24px 120px}
+  .kicker{color:var(--acid);font-family:var(--mono);font-size:12px;letter-spacing:.22em;text-transform:uppercase;margin-bottom:14px}
+  h1{font-family:var(--serif);font-size:44px;line-height:1.05;font-weight:500;letter-spacing:-.5px}
+  h1 em{color:var(--acid);font-style:normal}
+  .sub{color:var(--dim);max-width:640px;margin-top:14px;font-size:16px}
+  .links{margin-top:18px;display:flex;gap:10px;flex-wrap:wrap}
+  .links a{color:var(--ink);text-decoration:none;border:1px solid var(--line);padding:6px 14px;border-radius:999px;font-size:13px;transition:border-color .2s,color .2s}
+  .links a:hover{border-color:var(--acid);color:var(--acid)}
+  .legend{margin:40px 0 8px;padding:14px 18px;border:1px solid var(--line);border-radius:12px;color:var(--dim);font-size:13px;display:flex;gap:18px;flex-wrap:wrap}
+  .legend b{color:var(--ink);font-weight:600}
+  .grid{display:grid;grid-template-columns:1fr;gap:18px;margin-top:22px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:22px 24px;transition:border-color .25s, transform .25s}
+  .card:hover{border-color:rgba(79,216,232,.45)}
+  .card .no{font-family:var(--mono);font-size:12px;color:var(--acid);letter-spacing:.14em}
+  .card h2{font-family:var(--serif);font-size:22px;font-weight:500;margin:4px 0 2px}
+  .card .tag{font-family:var(--mono);font-size:12px;color:var(--dim)}
+  .card .story{font-size:14px;color:var(--dim);margin:10px 0 12px;max-width:720px}
+  .card .story b{color:var(--ink);font-weight:600}
+  .proof{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+  .proof span{font-family:var(--mono);font-size:11.5px;border:1px solid var(--line);border-radius:999px;padding:3px 10px;color:var(--green)}
+  .proof .honest{color:var(--amber);border-color:rgba(240,163,94,.4)}
+  .acts{display:flex;gap:10px;flex-wrap:wrap}
+  .acts a{text-decoration:none;font-size:13px;padding:7px 16px;border-radius:10px;font-weight:600}
+  .acts .live{background:var(--acid);color:#08131a}
+  .acts .src{border:1px solid var(--line);color:var(--ink)}
+  .acts .src:hover{border-color:var(--violet);color:var(--violet)}
+  .creds{margin-top:48px;padding-top:26px;border-top:1px solid var(--line)}
+  .creds h3{font-family:var(--serif);font-size:20px;font-weight:500;margin-bottom:12px}
+  .creds .wrap2{display:flex;flex-wrap:wrap;gap:8px}
+  .creds span{font-family:var(--mono);font-size:12px;border:1px solid var(--line);border-radius:999px;padding:4px 12px;color:var(--dim)}
+  .honesty{margin-top:40px;font-size:13px;color:var(--dim);border:1px dashed var(--line);border-radius:12px;padding:16px 18px}
+  .honesty b{color:var(--ink)}
+  .cta{margin-top:24px;padding:22px;border-radius:16px;background:linear-gradient(135deg,rgba(79,216,232,.10),rgba(167,139,250,.10));border:1px solid var(--line)}
+  .cta b{font-size:17px}
+  .cta p{color:var(--dim);font-size:14px;margin-top:4px}
+  @media(max-width:560px){ h1{font-size:32px} .wrap{padding:40px 16px 90px} }
+  @media (prefers-reduced-motion: reduce){ *{transition:none!important} }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="kicker">Dev4AiBots · Project Showcase</div>
+  <h1>AI systems that survive <em>real users</em>.</h1>
+  <p class="sub">Devraj Gadhvi — AI Engineer. Every project below has a live demo, public source, a story, and proof measured from the build. Nothing here is claimed without evidence.</p>
+  <div class="links">
+    <a href="https://dev4aibots.com">Portfolio ↗</a>
+    <a href="https://github.com/dev4aibots">GitHub ↗</a>
+    <a href="https://www.linkedin.com/in/devraj-gadhvi-793338388">LinkedIn ↗</a>
+    <a href="https://dev4aibots.github.io/portfolio/docs/CAREER_STORY.html">Career story ↗</a>
+    <a href="mailto:hello@dev4aibots.com">hello@dev4aibots.com</a>
+  </div>
+
+  <div class="legend">
+    <span><b>Live</b> — working deployment you can open</span>
+    <span><b>Source</b> — public repository</span>
+    <span><b>Proof</b> — measured evidence from the build</span>
+    <span><b>Honest</b> — stated limits, not hidden</span>
+  </div>
+
+  <div class="grid">
+
+    <div class="card">
+      <div class="no">01</div><h2>PRAMAAN</h2><div class="tag">Zero-trust RAG · Next.js · pgvector · RBAC</div>
+      <p class="story"><b>Story:</b> Enterprise RAG leaks — poisoned documents, broken authorization, confident hallucinations. I built a 5-layer security pipeline: ingestion scanner, authorization enforced inside the SQL query before the model sees data, evidence-grounded synthesis, PII shield, and a hash-chained audit log.</p>
+      <div class="proof"><span>5 security layers</span><span>RBAC in SQL</span><span>hash-chained audit</span><span class="honest">hackathon → production rebuild</span></div>
+      <div class="acts"><a class="live" href="https://pramaan-dev4aibots.vercel.app">Live demo ↗</a><a class="src" href="https://github.com/dev4aibots/Pramaan">Source ↗</a></div>
+    </div>
+
+    <div class="card">
+      <div class="no">02</div><h2>Semantic Code Search</h2><div class="tag">AST + vector search · hybrid RRF ranking</div>
+      <p class="story"><b>Story:</b> Keyword search fails when you ask "where do we retry failed payments?". This engine maps natural language to code with dense + sparse + RRF fused ranking, explained per result.</p>
+      <div class="proof"><span>Recall@1 78.4%</span><span>Recall@5 92.1%</span><span>MRR 0.84</span><span>P95 180 ms</span></div>
+      <div class="acts"><a class="live" href="https://semantic-code-search-demo.vercel.app">Live demo ↗</a><a class="src" href="https://github.com/dev4aibots/semantic-code-search">Source ↗</a></div>
+    </div>
+
+    <div class="card">
+      <div class="no">03</div><h2>LLM Gateway Benchmarks</h2><div class="tag">LiteLLM · 191 models · 5 providers</div>
+      <p class="story"><b>Story:</b> Routing agents blind wastes money and latency. I probed 191 models with real calls and produced kill/keep decisions for production routing — fastest stable on Groq at 0.28s.</p>
+      <div class="proof"><span>191 models measured</span><span>5 providers</span><span>latency + success %</span><span class="honest">June–July 2026 window</span></div>
+      <div class="acts"><a class="live" href="https://github.com/dev4aibots/llm-benchmarks">Open project ↗</a><a class="src" href="https://github.com/dev4aibots/llm-benchmarks">Source ↗</a></div>
+    </div>
+
+    <div class="card">
+      <div class="no">04</div><h2>MCP Tool Registry</h2><div class="tag">Model Context Protocol server</div>
+      <p class="story"><b>Story:</b> Every agent hand-wires integrations. I built a registry where any MCP-compatible agent discovers and calls tools through one standard interface — the demo executes real protocol calls live.</p>
+      <div class="proof"><span>live tools/list</span><span>JSON-RPC console</span><span>input schemas</span></div>
+      <div class="acts"><a class="live" href="https://mcp-tool-registry-demo.vercel.app/tools">Live demo ↗</a><a class="src" href="https://github.com/dev4aibots/mcp-tool-registry">Source ↗</a></div>
+    </div>
+
+    <div class="card">
+      <div class="no">05</div><h2>Enterprise RAG Engine</h2><div class="tag">FastAPI · chunking · grounded answers · eval</div>
+      <p class="story"><b>Story:</b> A RAG system that proves its answers: faithfulness, citation coverage, and precision@k computed from actual runs — plus a server service and a fully client-side demo.</p>
+      <div class="proof"><span>faithfulness metric</span><span>citation coverage</span><span>precision@k</span><span>e2e pipeline test</span></div>
+      <div class="acts"><a class="live" href="https://enterprise-rag-engine-demo.vercel.app">Live demo ↗</a><a class="src" href="https://github.com/dev4aibots/enterprise-rag-engine">Source ↗</a></div>
+    </div>
+
+    <div class="card">
+      <div class="no">06</div><h2>Deep Research Orchestrator</h2><div class="tag">best-first tree search · budget-capped</div>
+      <p class="story"><b>Story:</b> Research agents should plan, spend, and stop. This orchestrator grows a search tree under a budget with a fixed seed — deterministic, replayable, honest that experiment metrics are simulated.</p>
+      <div class="proof"><span>budget + seed controls</span><span>deterministic replay</span><span class="honest">metrics simulated — labeled</span></div>
+      <div class="acts"><a class="live" href="https://deep-research-orchestrator-demo.vercel.app">Live demo ↗</a><a class="src" href="https://github.com/dev4aibots/deep-research-orchestrator">Source ↗</a></div>
+    </div>
+
+    <div class="card">
+      <div class="no">07</div><h2>Agentic CLI Workspace</h2><div class="tag">agent loop · budget caps · safety hooks</div>
+      <p class="story"><b>Story:</b> A coding agent that rewrites its plan every turn under hard limits — max turns, max tokens, max dollars — and shows its work before claiming done.</p>
+      <div class="proof"><span>budget caps enforced</span><span>safety hooks</span><span class="honest">scripted model — labeled</span></div>
+      <div class="acts"><a class="live" href="https://agentic-cli-workspace-demo.vercel.app">Live demo ↗</a><a class="src" href="https://github.com/dev4aibots/agentic-cli-workspace">Source ↗</a></div>
+    </div>
+
+    <div class="card">
+      <div class="no">08</div><h2>Infra Diagnostics Agent</h2><div class="tag">Kubernetes + Prometheus triage</div>
+      <p class="story"><b>Story:</b> When production breaks at 3 a.m., an agent ranks likely causes with evidence and proposes fixes — behind a human approval gate.</p>
+      <div class="proof"><span>evidence-ranked causes</span><span>approval gate</span><span class="honest">simulated cluster — labeled</span></div>
+      <div class="acts"><a class="live" href="https://infra-diagnostics-agent-demo.vercel.app">Live demo ↗</a><a class="src" href="https://github.com/dev4aibots/infra-diagnostics-agent">Source ↗</a></div>
+    </div>
+
+    <div class="card">
+      <div class="no">09</div><h2>Multimodal Vision QA</h2><div class="tag">pdf.js + OCR · cited regions</div>
+      <p class="story"><b>Story:</b> Question a PDF or chart in plain English. Everything runs in your browser — extraction, OCR, indexing, and answers pinned to exact source regions.</p>
+      <div class="proof"><span>real in-browser extraction</span><span>cited-region overlay</span><span class="honest">prod numbers attributed to README</span></div>
+      <div class="acts"><a class="live" href="https://multimodal-vision-qa-demo.vercel.app">Live demo ↗</a><a class="src" href="https://github.com/dev4aibots/multimodal-vision-qa">Source ↗</a></div>
+    </div>
+
+    <div class="card">
+      <div class="no">10</div><h2>Realtime Voice AI</h2><div class="tag">WebSockets · low-latency</div>
+      <p class="story"><b>Story:</b> Talk to it — it talks back in real time over WebSockets. The whole build is about keeping latency below walkie-talkie feel.</p>
+      <div class="proof"><span>WebSocket voice session</span><span>latency-focused design</span><span class="honest">console live; TTS/ASR wiring in repo</span></div>
+      <div class="acts"><a class="live" href="https://realtime-voice-ai-demo-dev4aibots.vercel.app">Live demo ↗</a><a class="src" href="https://github.com/dev4aibots/realtime-voice-ai">Source ↗</a></div>
+    </div>
+
+    <div class="card">
+      <div class="no">11</div><h2>AI Agent Eval &amp; Red-Team Harness</h2><div class="tag">prompt-injection probes · offline dry-run</div>
+      <p class="story"><b>Story:</b> You can't claim safety without testing it. A dependency-free harness runs adversarial probes (instruction override, role hijack, jailbreak, data exfiltration) and scores answers — offline or against any OpenAI-compatible endpoint.</p>
+      <div class="proof"><span>5 adversarial probes</span><span>offline dry-run</span><span>cost + latency per task</span></div>
+      <div class="acts"><a class="live" href="https://github.com/dev4aibots/ai-agent-eval-harness">Open project ↗</a><a class="src" href="https://github.com/dev4aibots/ai-agent-eval-harness">Source ↗</a></div>
+    </div>
+
+    <div class="card">
+      <div class="no">12</div><h2>Career Story</h2><div class="tag">motion-graphics narrative</div>
+      <p class="story"><b>Story:</b> One year, 16 credentials, 9 systems — told as an animated five-phase narrative a recruiter can watch in 60 seconds.</p>
+      <div class="proof"><span>animated timeline</span><span>public URL</span></div>
+      <div class="acts"><a class="live" href="https://dev4aibots.github.io/portfolio/docs/CAREER_STORY.html">Watch ↗</a><a class="src" href="https://github.com/dev4aibots/portfolio">Source ↗</a></div>
+    </div>
+
+  </div>
+
+  <div class="creds">
+    <h3>Credentials — 16 verified</h3>
+    <div class="wrap2">
+      <span>IBM AI Developer</span><span>IBM RAG &amp; Agentic AI</span><span>IBM AI Engineering</span>
+      <span>Vanderbilt AI Agent Developer</span><span>Vanderbilt Agentic AI in Python</span>
+      <span>Vanderbilt Generative AI Automation</span><span>Vanderbilt GenAI Software Engineering</span>
+      <span>Vanderbilt Build Anything with AI</span><span>DeepLearning.AI GenAI for Software Dev</span>
+      <span>UiPath RPA</span><span>Microsoft Coding &amp; Automation for Data Analysis</span>
+      <span>Microsoft Intro to Sales &amp; AI</span><span>Google AI Essentials</span>
+      <span>Edureka GenAI for HR Workflows</span><span>JetBrains Build a Game with AI Coding Agent</span>
+      <span>IBM Building AI Agents &amp; Workflows</span>
+    </div>
+  </div>
+
+  <div class="honesty">
+    <b>Honesty contract:</b> no degree claimed · no prior paid employment claimed · every credential verifies ·
+    every system states what it proves and what it does not · nothing here is claimed without evidence.
+  </div>
+
+  <div class="cta">
+    <b>Let's build something real.</b>
+    <p>hello@dev4aibots.com · github.com/dev4aibots · linkedin.com/in/devraj-gadhvi-793338388 · Immediate start · Remote worldwide</p>
+  </div>
+</div>
+</body>
+</html>
